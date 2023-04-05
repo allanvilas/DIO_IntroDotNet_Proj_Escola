@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace DIO_IntroDotNet_Proj_Escola
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+
+           Menu menu = new Menu();
+
+            menu.Run();
+        }
+    }
+}
